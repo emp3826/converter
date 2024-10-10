@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Video Converter</string>
+    <string-array name="format_options">
+        <item>MP4</item>
+        <item>MKV</item>
+        <item>WMV</item>
+    </string-array>
+</resources>

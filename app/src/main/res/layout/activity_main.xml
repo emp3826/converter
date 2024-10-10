@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- 文件选择按钮 -->
+    <Button
+        android:id="@+id/pick_file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择视频文件"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 下拉菜单选择转换格式 -->
+    <Spinner
+        android:id="@+id/format_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 转换文件按钮 -->
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始转换"/>
+
+    <!-- 文件路径显示 -->
+    <TextView
+        android:id="@+id/selected_file_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择的文件路径将在这里显示"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
